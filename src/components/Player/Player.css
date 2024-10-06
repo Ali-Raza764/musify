@@ -1,0 +1,14 @@
+.song-slider {
+  -webkit-appearance: none; /* Remove default styling */
+  height: 8px; /* Height of the slider track */
+  border-radius: 5px; /* Rounded corners for track */
+}
+
+.song-slider::-moz-range-thumb {
+  width: 20px; /* Width of the thumb */
+  height: 20px; /* Height of the thumb */
+  border-radius: 50%; /* Rounded thumb */
+  background: #1db954; /* Spotify thumb color */
+  cursor: pointer; /* Pointer cursor */
+  accent-color: green;
+}
